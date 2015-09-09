@@ -10,7 +10,9 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  
 } 
+
 
 /**
  * Remove default margin.
@@ -50,8 +52,9 @@ body {
 
 .top-navigation  .links {
 	float:left;
-	font-family: 'Roboto', sans-serif;
+	 font-family: "Open Sans", "Helvetica Neue", sans-serif;
     color: #ffffff;
+	font-weight: bold;
     font-size: 16px;
     margin-top: 25px;
 	 margin-left: 367px;
@@ -67,11 +70,32 @@ body {
 
 .top-navigation .links li:hover {
     cursor: pointer;
-	font-weight: ;
+	font-weight: bold;
 	color: #858585;
   transition: all 500ms ease-in-out;
 }
- 	 
+
+.BackgroundSection {
+	
+    background-image: url('https://mailerdocs.s3.amazonaws.com/ukchanges/email_assets/5156/bglee28.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.Maincontent {
+	
+	background-color: #4d4d4d;
+	opacity: 0.4;
+	margin-right: auto;
+	margin-left: auto;
+}
+.Maincontent >  .h1 {
+	color: #ffffff;
+	
+}
+	
+
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -187,7 +211,8 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0 0;
+  padding:
 }
 
 /**
