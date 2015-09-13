@@ -2,6 +2,8 @@
 
 	h1{ margin-top: 0px;
 	color: #ffffff;
+	font-family:Verdana, Geneva, sans-serif;
+	
 	
 }
 
@@ -61,8 +63,8 @@
     background-image: url('https://mailerdocs.s3.amazonaws.com/ukchanges/email_assets/5156/bglee28.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
-	padding: 3em;
+    height: 15.938rem;
+	padding-top: 10em;
 }
 
 .Maincontent {
@@ -71,22 +73,85 @@
 	margin-left: auto;
 	width: 31%;
 	text-align: center;
-	
-	
-
 }
+
 .Maincontent  h1 {
-	color: #ffffff;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;0.1+0,0.09+50,0.1+100 */
-background: -moz-linear-gradient(top,  rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.09) 50%, rgba(255,255,255,0.1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.1)), color-stop(50%,rgba(255,255,255,0.09)), color-stop(100%,rgba(255,255,255,0.1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.09) 50%,rgba(255,255,255,0.1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.09) 50%,rgba(255,255,255,0.1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.09) 50%,rgba(255,255,255,0.1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.09) 50%,rgba(255,255,255,0.1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affffff', endColorstr='#1affffff',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;	
+	
+}
+
+.Emailme {
+-webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #4d4d4d;
+  padding: 10px 20px 8px 20px;
+  text-decoration: none;
+}
+
+.Emailme:hover {
+  background: #c7c7c7;
+  background-image: -webkit-linear-gradient(top, #c7c7c7, #828282);
+  background-image: -moz-linear-gradient(top, #c7c7c7, #828282);
+  background-image: -ms-linear-gradient(top, #c7c7c7, #828282);
+  background-image: -o-linear-gradient(top, #c7c7c7, #828282);
+  background-image: linear-gradient(to bottom, #c7c7c7, #828282);
+  text-decoration: none;
+}
+
+/* Work main */
 
 
+
+.WorkSection {
+	background-color: #e9e9e9;
+    height: 45.938rem;
+	padding: 3em;
+	text-align: center;
+	
+}
+
+.Workcontent {
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 31%;
+	text-align: center;
+}
+
+.WorkContent h1 {
+
+	color: #4d4d4d;	
+	
+}
+
+.Allemailwork h3 {
+	display:inline-block;
+}
+
+
+.Allemailwork {
+	display:inline-block;
+	margin-left: 13em;
+	margin-right: 0em;
+	text-align: center;
+	
+	
+}
+.Allwebsitework {
+	display:inline-block;
+	margin-left: 0em;
+	margin-right: 0em;
+	
+}
+.Allgraphicswork {
+	display:inline-block;
+	margin-left: 0em;
+	margin-right: 10em;
 	
 }
 	
