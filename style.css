@@ -6,6 +6,12 @@
 	
 	
 }
+h4{ margin-top: 0px;
+	color: #ffffff;
+	font-family:Verdana, Geneva, sans-serif;
+	
+	
+}
 
 /* Navigation Section */
 .top-navigation {
@@ -67,7 +73,7 @@ z-index: 9999;
     background-repeat: no-repeat;
     background-size: cover;
     height: 15.938rem;
-	padding-top: 10em;
+	padding-top: 20em;
 }
 
 .Maincontent {
@@ -122,7 +128,7 @@ z-index: 9999;
 
 	margin-right: auto;
 	margin-left: auto;
-	width: 31%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -132,38 +138,74 @@ z-index: 9999;
 	
 }
 
-.Allemailwork h3 {
+.Allworkexamples {
+	margin-left:auto;
+	margin-right: auto;
+	width:90%;
 	display:inline-block;
+	
 }
 
-
-.Allemailwork {
+	
+.Imagework {
+	width: 32%;
+	height:auto;
 	display:inline-block;
-	margin-left: 13em;
-	margin-right: 0em;
+	
+}
+
+.Worktitles {
+	font-weight: bold;
+	color: #4d4d4d;
+	
+
+}
+
+.Worktitles li {
+	display:inline-block;
+	padding-left: 13em;
+	padding-right: 13em;
+	
+		}
+		
+		/* Footer */
+.Footerbackground {
+	
+    background-image: url('https://mailerdocs.s3.amazonaws.com/ukchanges/email_assets/5156/bglee28.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8rem;
+	padding-top: 3em;
+		
+}
+
+.Footcontent {
+	margin-left:auto;
+	margin-right: auto;
+	width: 100%;
 	text-align: center;
 	
 	
 }
-.Allwebsitework {
-	display:inline-block;
-	margin-left: 0em;
-	margin-right: 0em;
+.Footcontent li {
+     display:inline-block;
+	 margin:0;
+	 padding-right :10px;
+	 padding-left :10px;
+	
+	
 	
 }
-.Allgraphicswork {
-	display:inline-block;
-	margin-left: 0em;
-	margin-right: 10em;
-	
+
+.Footcontent  h4 {
+	color: #ffffff;
+	text-align:center;	
+		
+		
 }
-	
-	
-	.cases .devices {
-    width: 33.3333333%;
-    display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
+
+.socialbuttons {
+	width: 45px;
+	margin: 0;
 }
+
