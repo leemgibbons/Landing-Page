@@ -87,10 +87,13 @@ z-index: 9999;
 	text-align: center;
 }
 
+
 .Maincontent  h1 {
 	color: #ffffff;	
 	
 }
+
+
 
 .Emailme {
 -webkit-border-radius: 28;
@@ -166,8 +169,8 @@ z-index: 9999;
 
 .Worktitles li {
 	display:inline-block;
-	padding-left: 13em;
-	padding-right: 13em;
+	padding-left: 10em;
+	padding-right: 10em;
 	
 		}
 		
@@ -213,3 +216,90 @@ z-index: 9999;
 	padding: 0;
 }
 
+@media only screen and (max-width: 900px) {
+    .Maincontent h1 {
+        font-size: 1em;
+		
+    }
+		
+	.top-navigation  .links {
+	float:center;
+	 font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    color: #ffffff;
+	font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 25px;
+	 margin-left: 0px;
+	 
+}
+
+.top-navigation  .logo {
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	text-align: center;
+}
+
+.BackgroundSection {
+	
+    background-image: url('https://mailerdocs.s3.amazonaws.com/ukchanges/email_assets/5156/bglee28.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 6.938rem;
+	padding-top: 12em;
+}
+
+.Emailme {
+-webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 13px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1em;
+  background: #4d4d4d;
+  padding: 4px 14px 4px 14px;
+  text-decoration: none;
+}
+
+.Emailme:hover {
+  background: #c7c7c7;
+  background-image: -webkit-linear-gradient(top, #c7c7c7, #828282);
+  background-image: -moz-linear-gradient(top, #c7c7c7, #828282);
+  background-image: -ms-linear-gradient(top, #c7c7c7, #828282);
+  background-image: -o-linear-gradient(top, #c7c7c7, #828282);
+  background-image: linear-gradient(to bottom, #c7c7c7, #828282);
+  text-decoration: none;
+}
+
+
+ .WorkContent h1 {
+        font-size: 1em;
+    }
+	
+	.Worktitles li {
+
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 1em;
+	
+	}
+	
+	.WorkSection {
+	background-color: #e9e9e9;
+    height: 12em;
+	padding: 0.3em;
+	text-align: center;
+	
+}
+
+.top-navigation > .content   {
+    width: 100%;
+    height: 2em;
+  
+}
+
+
+	
+}
