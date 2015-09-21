@@ -13,6 +13,9 @@ h4{ margin-top: 0px;
 	
 }
 
+ul { padding: 0; 
+}
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -207,5 +210,6 @@ z-index: 9999;
 .socialbuttons {
 	width: 45px;
 	margin: 0;
+	padding: 0;
 }
 
